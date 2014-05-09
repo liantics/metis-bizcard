@@ -1,29 +1,93 @@
-  .header {
-	background: url("images/HeaderImg.png") center no-repeat;
-	height: 180px;
-	opacity:0.75;
+ 
 
+
+/*import font from google fonts*/
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+.container-outer {
+ /*gradient background*/
+	
+}
+
+.header {
+	background: url("images/rose.jpg") center no-repeat;
+	height: 180px;
+	opacity:0.95;
+
+}
+.center-header-text{
+	/*gradient background*/
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	color: white;
+	padding-bottom: 70px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Poiret One";
+	font-size: 40pt;
 }
 
 p{
 color: 333333;
-font-family: "Georgia";
+font-family: "Poiret One";
 padding: 15px;
 }
 
-.center-big{
-	/*gradient background*/
-	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.05) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,0.05))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.05) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.05) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.05) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.05) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-	color: white;
-	padding-bottom: 20px;
-	text-align: center;
-	vertical-align: middle;
-	font-family: "Georgia";
-	font-size: 40pt;
+
+.avatar {
+	height:150px;
+	width:150px;
+	padding-top: 20px;
+	padding-right: 5px;
+	float:left;
+}
+
+/* Large red gradient button. Generated using CSSButtonGenerator.com, a nice tool. */
+.btn-lg {
+	-moz-box-shadow:inset 0px 1px 14px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 14px 0px #f29c93;
+	box-shadow:inset 0px 1px 14px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ed1800), color-stop(1, #a60202) );
+	background:-moz-linear-gradient( center top, #ed1800 5%, #a60202 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1800', endColorstr='#a60202');
+	background-color:#ed1800;
+	-webkit-border-top-left-radius:21px;
+	-moz-border-radius-topleft:21px;
+	border-top-left-radius:21px;
+	-webkit-border-top-right-radius:21px;
+	-moz-border-radius-topright:21px;
+	border-top-right-radius:21px;
+	-webkit-border-bottom-right-radius:21px;
+	-moz-border-radius-bottomright:21px;
+	border-bottom-right-radius:21px;
+	-webkit-border-bottom-left-radius:21px;
+	-moz-border-radius-bottomleft:21px;
+	border-bottom-left-radius:21px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:22px;
+	font-weight:bold;
+	font-style:normal;
+	height:59px;
+	line-height:59px;
+	width:195px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+}
+.btn-lg:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a60202), color-stop(1, #ed1800) );
+	background:-moz-linear-gradient( center top, #a60202 5%, #ed1800 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60202', endColorstr='#ed1800');
+	background-color:#a60202;
+}.btn-lg:active {
+	position:relative;
+	top:1px;
 }
